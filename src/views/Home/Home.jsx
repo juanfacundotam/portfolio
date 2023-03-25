@@ -7,11 +7,11 @@ import { SiJavascript, SiPostgresql, SiExpress, SiReact, SiRedux, SiCss3, SiHtml
 const Home = () => {
     return (
         <div className={style.divHome}>
-            <h1>HOME</h1>
-            <img src={foto} className={style.image} alt="Foto Personal" />
-            <BoxHeader/>
+            <p>home</p>
             <h1>Juan Facundo Tam</h1>
             <h2>FullStack Developer</h2>
+            <img src={foto} className={style.image} alt="Foto Personal" />
+            <BoxHeader/>
             <Social/>
             <div>
             <SiJavascript/>

@@ -3,7 +3,7 @@ import React from "react";
 import { IoPersonOutline } from "react-icons/io5";
 import { TfiBriefcase } from "react-icons/tfi";
 import { MdOutlinePhonelinkRing } from "react-icons/md";
-import { BsPhone } from "react-icons/bs";
+import { BsPhone, BsPersonVcard} from "react-icons/bs";
 
 
 import { NavLink } from "react-router-dom";
@@ -13,6 +13,9 @@ const Nav = () => {
         <div className={style.divNav}>
             <NavLink className={style.link}>
                 <IoPersonOutline className={style.icons} />
+            </NavLink>
+            <NavLink className={style.link}>
+                <BsPersonVcard className={style.icons} />
             </NavLink>
             <NavLink className={style.link}>
                 <TfiBriefcase className={style.icons}/>
