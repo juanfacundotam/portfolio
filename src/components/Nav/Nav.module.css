@@ -1,0 +1,22 @@
+.divNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+
+  width: 300px;
+  margin-top: 30px;
+}
+
+.divNav .link {
+  color: white;
+  padding: 20px;
+}
+
+.divNav .icons {
+  font-size: 30px;
+}
