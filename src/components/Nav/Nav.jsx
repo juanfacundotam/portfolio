@@ -11,7 +11,8 @@ import style from "./Nav.module.css"
 const Nav = () => {
     return(
         <motion.div className={style.divNav}
-            animate={{y: "20px"}}
+            // animate={{y: "20px"}}
+            whileInView={{ y: "20px"}}
             transition={{type:"spring", bounce: 0.6, duration:1}}
         >
             <NavLink className={style.link}>

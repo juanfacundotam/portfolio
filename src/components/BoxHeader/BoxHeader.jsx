@@ -1,9 +1,15 @@
 import React from "react";
 import style from "../BoxHeader/BoxHeader.module.css";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 const BoxHeader = () => {
   return (
-    <motion.div className={style.divBox} initial={{opacity: 0, y:"-150px", x:"250px"}} animate={{x:"150px", opacity: 1}} transition={{ duration: 1, delay:  0.1}}>
+    // initial={{opacity: 0, y: "60px"}}  transition={{duration:1}} whileInView={{ y: "0px", opacity: 1}}
+    <motion.div
+      className={style.divBox}
+      initial={{ opacity: 0, scale: 0.9 }}
+      transition={{ duration: 1, delay: 0.1 }}
+      whileInView={{ scale: 1, opacity: 1 }}
+    >
       <h3>Sobre Mí</h3>
       <p>
         Hola! Mi nombre es Juan Facundo Tam. Soy desarrollador FullStack. Desde
@@ -13,14 +19,13 @@ const BoxHeader = () => {
       </p>
       <p>
         Desde aquel entonces me encuentro en formación constante, investigando,
-        intentando seguir aprendiendo y generando toda la experiencia posible,
-        siendo esta modalidad parte de mi agenda cotidiana.
+        aprendiendo y generando experiencia.
       </p>
       <p>
-        Entre mis cualidades personales, me considero aplicado, perseverante y
-        creativo, destacándome en resolver problemas a través de la búsqueda
-        activa de soluciones y alternativas. Cuento con una gran apertura,
-        interés y predisposición para dinámicas de trabajo grupal.
+        Entre mis cualidades personales, me considero responsable, perseverante
+        y creativo. Me destaco en resolver problemas a través de la búsqueda
+        activa de soluciones y alternativas. Respecto de mis aspiraciones, creo
+        que la mejor forma de trabajar es la grupal
       </p>
     </motion.div>
   );

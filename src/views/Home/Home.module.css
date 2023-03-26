@@ -1,21 +1,24 @@
 .divHome {
-    border: 1px solid gold;
+    /* border: 1px solid gold; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     margin-top: 60px;
 }
 .divHome .image{
-    width: 40%;
+    width: 30%;
     border-radius: 15px;
+    margin-top: 20px;
 }
 
 .divHome h1{
     padding: 0;
+    /* margin-top: 40px; */
     margin: 0;
 }
 .divHome h2{
-    padding: 0;
     margin: 0;
+    border: transparent;
+    margin-top: 5px;
 }
