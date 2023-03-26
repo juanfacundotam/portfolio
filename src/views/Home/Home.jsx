@@ -22,6 +22,7 @@ import {
   SiLinux,
 } from "react-icons/si";
 import { type } from "@testing-library/user-event/dist/type";
+import Skills from "../../components/Skills/Skills";
 
 // animate={{ x: "0px", opacity: 1}}
 
@@ -29,33 +30,16 @@ import { type } from "@testing-library/user-event/dist/type";
 const Home = () => {
   return (
     <div className={style.divHome}>
-      <p>home</p>
-      <motion.h1 initial={{opacity: 0, x: "-60px"}}  transition={{ duration: 2 }} whileInView={{ x: "0px", opacity: 1}} viewport={{ margin:"30px" }}>
+      <motion.h1 initial={{opacity: 0, x: "-60px"}} animate={{ x: "0px", opacity: 1}} transition={{ duration: 1, delay:  0.1}}>
         Juan Facundo Tam
       </motion.h1>
-      <motion.h2 initial={{opacity: 0, x: "60px"}} animate={{ x: "0px", opacity: 1 }} transition={{ duration: 2 }}>
+      <motion.h2 initial={{opacity: 0, x: "60px"}} animate={{ x: "0px", opacity: 1}} transition={{ duration: 1, delay:  0.1}}>
         FullStack Developer
       </motion.h2>
-      <img src={foto} className={style.image} alt="Foto Personal" />
-      <BoxHeader />
+      <motion.img src={foto} className={style.image} alt="Foto Personal" initial={{opacity: 0, x: "-250px"}} animate={{ x: "-125px", opacity: 1}} transition={{ duration: 1, delay:  0.1}}/>
+      <BoxHeader/>
       <Social />
-      <div initial={{opacity: 0, y: "-60px"}}  transition={{ duration: 1, delayChildren:2, type:"tween"}} whileInView={{ y: "0px", opacity: 1}}>
-        <SiJavascript />
-        <SiPostgresql />
-        <SiExpress />
-        <SiReact />
-        <SiRedux />
-        <SiCss3 />
-        <SiHtml5 />
-        <SiNodedotjs />
-        <SiNpm />
-        <SiSass />
-        <SiLess />
-        <SiCplusplus />
-        <SiCsharp />
-        <SiDotnet />
-        <SiLinux />
-      </div>
+      <Skills/>
     </div>
   );
 };

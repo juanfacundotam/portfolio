@@ -1,0 +1,19 @@
+.divContainer {
+    border: 1px solid red;
+}
+
+.divContainer .divIcons {
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.divContainer .divIcons .icons{
+    border: 1px solid red;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}

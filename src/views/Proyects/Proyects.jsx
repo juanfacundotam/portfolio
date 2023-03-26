@@ -1,15 +1,15 @@
 import React from "react";
 import { useRef } from "react";
-import {motion} from "framer-motion"
+import {delay, motion} from "framer-motion"
 
 const Proyects = () => {
     const scrollRef = useRef(null)
     return (
-        <motion.div  initial={{opacity: 0, x: "-60px"}}  transition={{ duration: 2, type:"spring", bounce: 2}} whileInView={{ x: "0px", opacity: 1}}>
-            <h1>Proyects</h1>
-            <h1>Proyects</h1>
-            <h1>Proyects</h1>
-            <h1>Proyects</h1>
+        <motion.div  >
+            <motion.h1 initial={{opacity: 0.5, x: "-60px"}}  transition={{ duration: 1, delay:0}} whileInView={{ x: "0px", opacity: 1}}>Proyects</motion.h1>
+            <motion.h1 initial={{opacity: 0.5, x: "-60px"}}  transition={{ duration: 1, delay:0.2}} whileInView={{ x: "0px", opacity: 1}}>Proyects</motion.h1>
+            <motion.h1 initial={{opacity: 0.5, x: "-60px"}}  transition={{ duration: 1, delay:0.4}} whileInView={{ x: "0px", opacity: 1}}>Proyects</motion.h1>
+            <motion.h1 initial={{opacity: 0.5, x: "-60px"}}  transition={{ duration: 1, delay:0.6}} whileInView={{ x: "0px", opacity: 1}}>Proyects</motion.h1>
         </motion.div>
     )
 }

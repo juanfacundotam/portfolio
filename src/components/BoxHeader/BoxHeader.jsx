@@ -1,9 +1,9 @@
 import React from "react";
 import style from "../BoxHeader/BoxHeader.module.css";
-
+import {motion} from "framer-motion"
 const BoxHeader = () => {
   return (
-    <div className={style.divBox}>
+    <motion.div className={style.divBox} initial={{opacity: 0, y:"-150px", x:"250px"}} animate={{x:"150px", opacity: 1}} transition={{ duration: 1, delay:  0.1}}>
       <h3>Sobre Mí</h3>
       <p>
         Hola! Mi nombre es Juan Facundo Tam. Soy desarrollador FullStack. Desde
@@ -22,7 +22,7 @@ const BoxHeader = () => {
         activa de soluciones y alternativas. Cuento con una gran apertura,
         interés y predisposición para dinámicas de trabajo grupal.
       </p>
-    </div>
+    </motion.div>
   );
 };
 

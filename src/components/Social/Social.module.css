@@ -1,0 +1,25 @@
+.divIcons {
+    border: 1px solid greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.divIcons .icons {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    color: white;
+    padding: 5px;
+
+}
+
+.divIcons .BorderIcons {
+    border: 1px solid green;
+    border-radius: 50%;
+}
