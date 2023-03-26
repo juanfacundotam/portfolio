@@ -8,7 +8,7 @@ import {motion} from "framer-motion"
 
 const Social = () => {
   return (
-    <motion.div className={style.divIcons} initial={{opacity: 0, scale:0.9}}  transition={{duration:1}} whileInView={{ scale:1, opacity: 1}} >
+    <motion.div className={style.divIcons} initial={{opacity: 0, scale:0.9}}  transition={{duration:1}} whileInView={{ scale:1  , opacity: 1}} >
       <a href="#" className={style.BorderIcons}>
         <FiGithub className={style.icons} />
       </a>
