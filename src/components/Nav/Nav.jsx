@@ -18,9 +18,12 @@ const Nav = () => {
             <NavLink className={style.link}>
                 <IoPersonOutline className={style.icons} />
             </NavLink>
-            <NavLink className={style.link}>
+            <a href="#skills" className={style.link}>
+            {/* <NavLink className={style.link}>  */}
                 <BsPersonVcard className={style.icons} />
-            </NavLink>
+            {/* </NavLink> */}
+
+            </a>
             <NavLink className={style.link}>
                 <TfiBriefcase className={style.icons}/>
             </NavLink>
