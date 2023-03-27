@@ -36,7 +36,7 @@ const Home = () => {
       <motion.h2 initial={{opacity: 0.8, x: "20px"}} whileInView={{ x: "0px", opacity: 1 }} transition={{ duration: 1, delay:  0.1}}>
         FullStack Developer
       </motion.h2>
-      <motion.img src={foto} className={style.image} alt="Foto Personal" initial={{opacity: 0, scale: 0.9}} animate={{ scale: 1, opacity: 1}} transition={{ duration: 1, delay:  0.1}}/>
+      <motion.img src={foto} className={style.image} alt="Foto Personal" initial={{opacity: 0, scale: 0.9}} whileInView={{ x: "0px", opacity: 1 }} transition={{ duration: 1, delay:  0.1}}/>
       <Social />
       <BoxHeader />
       <Skills/>
