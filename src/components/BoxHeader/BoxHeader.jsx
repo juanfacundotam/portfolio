@@ -6,7 +6,7 @@ const BoxHeader = () => {
     // initial={{opacity: 0, y: "60px"}}  transition={{duration:1}} whileInView={{ y: "0px", opacity: 1}}
     <motion.div
       className={style.divBox}
-      initial={{ opacity: 0, scale: 0.9 }}
+      initial={{ opacity: 0.8, scale: 0.9 }}
       transition={{ duration: 1, delay: 0.1 }}
       whileInView={{ scale: 1, opacity: 1 }}
     >
