@@ -21,8 +21,9 @@ import {
   SiDotnet,
   SiLinux,
 } from "react-icons/si";
-import { type } from "@testing-library/user-event/dist/type";
+
 import Skills from "../../components/Skills/Skills";
+
 
 // animate={{ x: "0px", opacity: 1}}
 
@@ -40,6 +41,8 @@ const Home = () => {
       <Social />
       <BoxHeader />
       <Skills/>
+
+
     </div>
   );
 };
