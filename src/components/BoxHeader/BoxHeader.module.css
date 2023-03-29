@@ -26,9 +26,10 @@
 
 @media screen and (max-width: 790px) {
   .divBox {  
-    max-width: 400px;
+    max-width: 320px;
   } 
   .divBox p {
-    text-align: justify;
+    text-align: center;
+    font-size: 18px;
   }
 }
