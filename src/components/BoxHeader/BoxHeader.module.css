@@ -26,6 +26,9 @@
 
 @media screen and (max-width: 790px) {
   .divBox {  
-    max-width: 450px;
+    max-width: 400px;
   } 
+  .divBox p {
+    text-align: justify;
+  }
 }

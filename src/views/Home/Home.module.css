@@ -23,7 +23,19 @@
 }
 
 @media screen and (max-width: 790px) {
+  .divHome {
+
+    margin-top: 120px;
+  }
   .divHome .image {
     width: 50%;
+
+  }
+  .divHome h1 {
+font-size: 30px;
+}
+.divHome h2 {
+  font-size: 23px;
+  
   }
 }
