@@ -2,12 +2,15 @@
 
 .App {
   text-align: center;
+  scroll-behavior: smooth;
+
 }
 
 /* background-color:  #282c34; */
 .App-container {
   background: linear-gradient(315deg, #282c34, #2a2c53);
-  /* background-color:  #111222; */
+
+
 
   min-height: 100vh;
   display: flex;

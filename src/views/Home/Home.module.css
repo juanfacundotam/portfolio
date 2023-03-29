@@ -1,5 +1,5 @@
 .divHome {
-    /* border: 1px solid gold; */
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,7 @@
 
 .divHome h1{
     padding: 0;
-    /* margin-top: 40px; */
+
     margin: 0;
 }
 .divHome h2{

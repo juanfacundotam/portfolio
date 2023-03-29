@@ -3,7 +3,7 @@ import style from "./Home.module.css";
 import foto from "../../assets/foto.jpg";
 import Social from "../../components/Social/Social";
 import BoxHeader from "../../components/BoxHeader/BoxHeader";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 import {
   SiJavascript,
   SiPostgresql,
@@ -24,25 +24,36 @@ import {
 
 import Skills from "../../components/Skills/Skills";
 
-
 // animate={{ x: "0px", opacity: 1}}
-
 
 const Home = () => {
   return (
     <div className={style.divHome}>
-      <motion.h1 initial={{opacity: 0.8, x: "-20px"}} whileInView={{ x: "0px", opacity: 1 }} transition={{ duration: 1, delay:  0.1}}>
+      <motion.h1
+        initial={{ opacity: 0.8, x: "-20px" }}
+        whileInView={{ x: "0px", opacity: 1 }}
+        transition={{ duration: 1, delay: 0.1 }}
+      >
         Juan Facundo Tam
       </motion.h1>
-      <motion.h2 initial={{opacity: 0.8, x: "20px"}} whileInView={{ x: "0px", opacity: 1 }} transition={{ duration: 1, delay:  0.1}}>
+      <motion.h2
+        initial={{ opacity: 0.8, x: "20px" }}
+        whileInView={{ x: "0px", opacity: 1 }}
+        transition={{ duration: 1, delay: 0.1 }}
+      >
         FullStack Developer
       </motion.h2>
-      <motion.img src={foto} className={style.image} alt="Foto Personal" initial={{opacity: 0.8, scale: 0.9}} whileInView={{ scale: 1, opacity: 1 }} transition={{ duration: 1, delay:  0.1}}/>
+      <motion.img
+        src={foto}
+        className={style.image}
+        alt="Foto Personal"
+        initial={{ opacity: 0.8, scale: 0.9 }}
+        whileInView={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 1, delay: 0.1 }}
+      />
       <Social />
       <BoxHeader />
-      <Skills/>
-
-
+      <Skills />
     </div>
   );
 };
