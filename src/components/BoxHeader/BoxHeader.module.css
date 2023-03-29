@@ -21,3 +21,10 @@
   font-size: 18px;
   margin-bottom: 10px;
 }
+
+
+@media screen and (max-width: 790px) {
+  .divBox {  
+    max-width: 450px;
+  } 
+}

@@ -1,24 +1,29 @@
 .divHome {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 130px;
 }
-.divHome .image{
-    width: 30%;
-    border-radius: 15px;
-    margin-top: 20px;
+.divHome .image {
+  width: 30%;
+  border-radius: 15px;
+  margin-top: 20px;
 }
 
-.divHome h1{
-    padding: 0;
+.divHome h1 {
+  padding: 0;
 
-    margin: 0;
+  margin: 0;
 }
-.divHome h2{
-    margin: 0;
-    border: transparent;
-    margin-top: 5px;
+.divHome h2 {
+  margin: 0;
+  border: transparent;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 790px) {
+  .divHome .image {
+    width: 50%;
+  }
 }
