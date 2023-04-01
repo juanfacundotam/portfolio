@@ -1,16 +1,18 @@
 import React from "react";
+import style from "./Proyects.module.css"
 import { useRef } from "react";
 import {delay, motion} from "framer-motion"
+import Modal from "../../components/Modal/Modal";
+import foto from "../../assets/foto.jpg"
 
 const Proyects = () => {
-    const scrollRef = useRef(null)
     return (
-        <motion.div  >
-            <motion.h1 initial={{opacity: 0.5, x: "-60px"}}  transition={{ duration: 1, delay:0}} whileInView={{ x: "0px", opacity: 1}}>Proyects</motion.h1>
-            <motion.h1 initial={{opacity: 0.5, x: "-60px"}}  transition={{ duration: 1, delay:0.2}} whileInView={{ x: "0px", opacity: 1}}>Proyects</motion.h1>
-            <motion.h1 initial={{opacity: 0.5, x: "-60px"}}  transition={{ duration: 1, delay:0.4}} whileInView={{ x: "0px", opacity: 1}}>Proyects</motion.h1>
-            <motion.h1 initial={{opacity: 0.5, x: "-60px"}}  transition={{ duration: 1, delay:0.6}} whileInView={{ x: "0px", opacity: 1}}>Proyects</motion.h1>
-        </motion.div>
+        <div  className={style.divProyects}>
+            <Modal image={foto}/>
+            <Modal image={foto}/>
+            <Modal image={foto}/>
+            <Modal image={foto}/>
+        </div>
     )
 }
 

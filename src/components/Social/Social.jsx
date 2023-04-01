@@ -1,10 +1,12 @@
 import React from "react";
 import style from "./Social.module.css"
-import { FaGithub, FaLinkedinIn, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaLinkedin, FaWhatsapp} from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { AiOutlineMail } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import {motion} from "framer-motion"
+
 
 const Social = () => {
   return (
@@ -14,6 +16,12 @@ const Social = () => {
       </a>
       <a href="#" className={style.BorderIcons}>
         <FaLinkedinIn className={style.icons} />
+      </a>
+      <a href="#" className={style.BorderIcons}>
+        <FaWhatsapp className={style.icons} />
+      </a>
+      <a href="#" className={style.BorderIcons}>
+        <AiOutlineMail className={style.icons} />
       </a>
     </motion.div>
   );
