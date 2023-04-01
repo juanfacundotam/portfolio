@@ -4,7 +4,7 @@ import foto from "../../assets/foto.jpg";
 import Social from "../../components/Social/Social";
 import BoxHeader from "../../components/BoxHeader/BoxHeader";
 import { motion } from "framer-motion";
-import Modal from "../../components/Modal/Modal";
+
 import {
   SiJavascript,
   SiPostgresql,
