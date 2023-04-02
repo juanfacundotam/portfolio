@@ -13,23 +13,23 @@ const ModalProyects = (props) => {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-          <Modal.Header closeButton className={style.header}>
+          <Modal.Header closeButton className={style.headerDiv}>
             <Modal.Title id="contained-modal-title-vcenter">
               <h2>{props.tittle}</h2>
             </Modal.Title>
           </Modal.Header>
-          <Modal.Body className={style.body}>
-            <h4>Desciption: </h4>
+          <Modal.Body className={style.bodyDiv}>
+            <h4>Description: </h4>
             <p>{props.description}</p>
           </Modal.Body>
-          <Modal.Footer className={style.footer}>
+          <Modal.Footer className={style.footerDiv}>
             <h2>Tecnologies: </h2>
             <ul className={style.lista}>
               {props.tecnology.map((icon) => {
-                return <li className={style.item}>{icon}</li>;
+                return <li className={style.iconos}>{icon}</li>;
               })}
             </ul>
-            <Button onClick={props.onHide} className={style.button}>Sitio Web</Button>
+            <Button onClick={props.onHide} className={style.button}><span>Sitio Web</span></Button>
           </Modal.Footer>
       </Modal>
     </div>
