@@ -1,0 +1,76 @@
+.divModal {
+  /* background-color: rgb(111, 0, 255); */
+  /* width: 30px; */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+
+}
+.divModal h2{
+
+    font-size: 10px;
+  
+  }
+.header {
+    background-color: rgb(25, 29, 29);
+    display: flex;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.body h4{
+font-size: 10px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  justify-content: center;
+}
+.footer h2{ 
+    font-size: 10px;
+}
+.footer .lista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.footer .lista .item {
+    font-size: 10px;
+    margin: 10px;
+    padding: 2px;
+    text-decoration: none; 
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+}
+
+@media screen and (max-width: 790px) {
+  .divModal {
+    margin: auto;
+    width: 300px;
+    margin: 13%;
+    /* margin-left: 20%; */
+  }
+}
