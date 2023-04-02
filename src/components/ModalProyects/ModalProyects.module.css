@@ -1,39 +1,39 @@
 .divModal {
-  /* background-color: rgb(111, 0, 255); */
-  /* width: 30px; */
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* background-color: rgb(111, 0, 255);  */
 }
-.divModal h2{
+/* .divModal h2{
     font-size: 16px;
-  }
-.headerDiv {
+  }*/
+/* .headerDiv {
     background-color: rgb(25, 29, 29);
-    display: flex;
-    align-items: center;
-    margin: 0;
-    justify-content: center;
-}
-
-.bodyDiv {
+    color: white;
+  }
+.headerDiv button{
+    background-color: rgb(25, 29, 29);
+    color: white;
+  }
+  
+  .bodyDiv {
+    background-color: rgb(25, 29, 29);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 10px;
-}
+} */
 .bodyDiv h4{
 font-size: 15px;
 }
 
 
 .footerDiv {
-    display: flex;
+     /* background-color: black; */
+
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 .footerDiv h2{ 
     font-size: 15px;
@@ -52,9 +52,9 @@ font-size: 15px;
     margin: 10px;
     padding: 2px;
     text-decoration: none; 
-}
+} 
 
-Button {
+/* Button {
     display: flex;
     position: relative;
     align-items: center;
@@ -70,12 +70,11 @@ Button span{
   position: absolute;
   top: 3px;
   left: 25px;
-}
-
+} */
 @media screen and (max-width: 790px) {
   .divModal {
     margin: auto;
-    width: 80%;
-    margin-left: 8%;
+    max-width: 70%;
+    margin-left: 14%;
   }
 }

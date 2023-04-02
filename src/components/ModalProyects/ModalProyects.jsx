@@ -26,7 +26,7 @@ const ModalProyects = (props) => {
             <h2>Tecnologies: </h2>
             <ul className={style.lista}>
               {props.tecnology.map((icon) => {
-                return <li className={style.iconos}>{icon}</li>;
+                return <li className={style.iconos} >{icon}</li>;
               })}
             </ul>
             <Button onClick={props.onHide} className={style.button}><span>Sitio Web</span></Button>
