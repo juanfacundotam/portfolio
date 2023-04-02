@@ -25,6 +25,7 @@ const CardProyect = ({
         <img src={proyectsImage(`./${image}.jpg`)} alt={imagealt} />
       </div>
       <ModalProyects
+        className={style.modal}
         show={modalShow}
         handleopen={handleopen}
         onHide={() => setModalShow(false)}

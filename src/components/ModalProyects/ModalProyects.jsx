@@ -7,7 +7,8 @@ const ModalProyects = (props) => {
   return (
     <div>
       <Modal
-        className={style.modalContainer}
+      className="text-white"
+        // className={style.modalContainer}
         {...props}
         size="lg"
         aria-labelledby="contained-modal-title-vcenter"
