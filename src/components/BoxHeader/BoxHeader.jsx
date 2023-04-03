@@ -24,9 +24,9 @@ const BoxHeader = () => {
       <p>
         Entre mis cualidades personales, me considero responsable, perseverante
         y creativo. Me destaco en resolver problemas a través de la búsqueda
-        activa de soluciones y alternativas. Pienso que el trabajo en equipo es sumamente 
-        valioso, el medio necesario para crecer tanto profesional como personalmente y 
-        lograr los objetivos de una manera más eficaz.
+        activa de soluciones y alternativas. Cuento con una gran apertura, interés 
+        y predisposición para dinámicas de trabajo grupal, considerandolas 
+        indispensable para el desarrollo tanto profesional como personal.
       </p>
     </motion.div>
   );

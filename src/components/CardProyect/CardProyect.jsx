@@ -15,20 +15,22 @@ const CardProyect = ({
   const [isOpen, setIsOpen] = useState(false);
 
   const openModal = () => {
-    setIsOpen(!isOpen);
-    console.log(isOpen);
+    setIsOpen(true);
+
   };
   const closeModal = () => {
-    setIsOpen(!isOpen);
-    console.log(isOpen);
+    setIsOpen(false);
+
   };
 
   return (
     <div className={style.containerCard}>
       <button onClick={openModal}>x</button>
       <Modal
+      tittle={tittle}
       isOpen={isOpen}
       closeModal={closeModal}
+      setIsOpen={setIsOpen}
       />
     </div>
   );
