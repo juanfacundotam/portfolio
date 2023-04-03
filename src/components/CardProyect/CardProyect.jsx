@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import style from "./CardProyect.module.css";
-import ModalProyects from "../../components/ModalProyects/ModalProyects";
-import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
+import Modal from "../Modal/Modal";
+
 const proyectsImage = require.context("../../assets/proyectsImage");
 
 const CardProyect = ({
@@ -13,32 +12,26 @@ const CardProyect = ({
   imagealt,
   tecnology,
 }) => {
-  const [modalShow, setModalShow] = React.useState(false);
-  const handleopen = () => {
-    setModalShow(true);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const openModal = () => {
+    setIsOpen(!isOpen);
+    console.log(isOpen);
+  };
+  const closeModal = () => {
+    setIsOpen(!isOpen);
+    console.log(isOpen);
   };
 
   return (
     <div className={style.containerCard}>
-      <div onClick={handleopen} className={style.card} id={id}>
-        <h1 id={id}>{tittle}</h1>
-        <img src={proyectsImage(`./${image}.jpg`)} alt={imagealt} />
-      </div>
-      <ModalProyects
-        className={style.modal}
-        show={modalShow}
-        handleopen={handleopen}
-        onHide={() => setModalShow(false)}
-        id={id}
-        tittle={tittle}
-        description={description}
-        image={image}
-        imagealt={imagealt}
-        tecnology={tecnology}
+      <button onClick={openModal}>x</button>
+      <Modal
+      isOpen={isOpen}
+      closeModal={closeModal}
       />
     </div>
   );
 };
 
 export default CardProyect;
-
