@@ -24,7 +24,7 @@ max-width: 480px;
 min-height: 200px;
 max-height: 600px;
 overflow-y: auto; 
-background-color: aliceblue;
+background-color: rgb(59, 76, 74);
 }
 
 .modalClose {
