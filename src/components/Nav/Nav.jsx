@@ -28,7 +28,8 @@ const Nav = () => {
         <TfiBriefcase className={style.icons} />
       </a>
       <a href="https://github.com/juanfacundotam/juanfacundotam/raw/main/Juan%20Facundo%20Tam%20CV.pdf" className={style.link} download>
-      <BsPhone className={style.icons} />
+      {/* <BsPhone className={style.icons} /> */}
+      <p>CV</p>
       </a>
     </motion.div>
   );

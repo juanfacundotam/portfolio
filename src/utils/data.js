@@ -37,18 +37,18 @@ const data = [
     },
     {
       id: 3,
-      tittle: "Proyecto 3",
-      description: "Este esta hecho de manera distinta",
+      tittle: "Gastos Semanales",
+      description: "Calculadora de gastos personales. Logica JavaScript",
       image: "foto3",
-      imagealt: "foto proyecto 2",
-      tecnology: [<SiHtml5 className={style.icon}/>, <SiHtml5 className={style.icon}/>, <SiHtml5 className={style.icon}/>],
+      imagealt: "foto proyecto 3",
+      tecnology: [<SiHtml5 className={style.icon}/>, <SiCss3 className={style.icon}/>, <SiJavascript className={style.icon}/>],
     },
     {
       id: 4,
       tittle: "Proyecto 4",
       description: "Este esta hecho de manera distinta",
       image: "foto4",
-      imagealt: "foto proyecto 2",
+      imagealt: "foto proyecto 4",
       tecnology: [<SiReact className={style.icon}/>, <SiReact className={style.icon}/>, <SiReact className={style.icon}/>],
     },
   ];
