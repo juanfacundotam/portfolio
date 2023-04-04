@@ -29,7 +29,7 @@ import Skills from "../../components/Skills/Skills";
 
 const Home = () => {
   return (
-    <div className={style.divHome}>
+    <div className={style.divHome} id="home">
       <motion.h1
         initial={{ opacity: 0.8, x: "-20px" }}
         whileInView={{ x: "0px", opacity: 1 }}

@@ -1,9 +1,10 @@
 .divHome {
+  /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  margin-top: 130px;
+  padding-top: 130px;
 }
 .divHome .image {
   width: 30%;

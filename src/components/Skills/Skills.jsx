@@ -4,13 +4,14 @@ import style from "./Skills.module.css";
 import {
   SiJavascript,
   SiPostgresql,
+  SiSequelize,
   SiExpress,
   SiReact,
+  SiNextdotjs,
   SiRedux,
   SiCss3,
   SiHtml5,
   SiNodedotjs,
-  SiNpm,
   SiSass,
   SiLess,
   SiCplusplus,
@@ -21,7 +22,8 @@ import {
 
 const Skills = () => {
   return (
-      <motion.div id="skills"
+    <div className={style.contenedor} id="skills">
+      <motion.div 
         className={style.divContainer}
         initial={{ opacity: 0, y: "-30px" }}
         transition={{ duration: 1, type: "tween" }}
@@ -30,12 +32,16 @@ const Skills = () => {
         <h1>My Skills</h1>
         <motion.div className={style.divIcons}>
           <div className={style.divSkill}>
-            <SiJavascript className={style.icons} />
+            <SiJavascript className={style.icons}/>
             <span>Javascript</span>
           </div>
           <div className={style.divSkill}>
             <SiReact className={style.icons} />
             <span>React</span>
+          </div>
+          <div className={style.divSkill}>
+            <SiNextdotjs className={style.icons} />
+            <span>NextJS</span>
           </div>
           <div className={style.divSkill}>
             <SiRedux className={style.icons} />
@@ -54,16 +60,16 @@ const Skills = () => {
             <span>PostgreSQL</span>
           </div>
           <div className={style.divSkill}>
+            <SiSequelize className={style.icons} />
+            <span>Sequelize</span>
+          </div>
+          <div className={style.divSkill}>
             <SiCss3 className={style.icons} />
             <span>Css</span>
           </div>
           <div className={style.divSkill}>
             <SiHtml5 className={style.icons} />
             <span>Redux</span>
-          </div>
-          <div className={style.divSkill}>
-            <SiNpm className={style.icons} />
-            <span>NPM</span>
           </div>
           <div className={style.divSkill}>
             <SiSass className={style.icons} />
@@ -85,12 +91,10 @@ const Skills = () => {
             <SiDotnet className={style.icons} />
             <span>.Net</span>
           </div>
-          <div className={style.divSkill}>
-            <SiLinux className={style.icons} />
-            <span>Linux</span>
-          </div>
+
         </motion.div>
       </motion.div>
+    </div>
 
   );
 };

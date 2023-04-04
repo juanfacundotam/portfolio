@@ -1,5 +1,6 @@
 import style from "./Modal.module.css";
 import { motion } from "framer-motion";
+
 const proyectsImage = require.context("../../assets/proyectsImage");
 
 const Modal = ({
@@ -31,9 +32,10 @@ const Modal = ({
           X
         </button>
         <h1>{tittle}</h1>
-        <img src={proyectsImage(`./${image}.jpg`)} alt={imageAlt} />
+        <img src={proyectsImage(`./${image}.webp`)} alt="Imagen Proyecto" />
         <p>{description}</p>
         <div>
+          <h4>Tecnologías</h4>
           <ul className={style.list}>
             {tecnology.map((tecno) => {
               return <li className={style.item}>{tecno}</li>;

@@ -31,7 +31,7 @@ const CardProyect = ({
         whileInView={{ opacity: 1, scale: 1 }}
       >
         <h1>{tittle}</h1>
-        <img src={proyectsImage(`./${image}.jpg`)} alt={imagealt} />
+        <img src={proyectsImage(`./${image}.webp`)} alt="imagen Proyecto" />
       </motion.div>
       <Modal
         id={id}
