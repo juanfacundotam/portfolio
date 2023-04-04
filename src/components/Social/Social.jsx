@@ -11,17 +11,14 @@ import {motion} from "framer-motion"
 const Social = () => {
   return (
     <motion.div className={style.divIcons} initial={{opacity: 0.8, scale:0.9}}  transition={{duration:1}} whileInView={{ scale:1  , opacity: 1}} >
-      <a href="#" className={style.BorderIcons}>
+      <a href="https://github.com/juanfacundotam" className={style.BorderIcons}>
         <FiGithub className={style.icons} />
       </a>
-      <a href="#" className={style.BorderIcons}>
+      <a href="https://www.linkedin.com/in/juan-facundo-tam-12b943223/" className={style.BorderIcons}>
         <FaLinkedinIn className={style.icons} />
       </a>
-      <a href="#" className={style.BorderIcons}>
+      <a href="https://api.whatsapp.com/send?phone=541137736885" className={style.BorderIcons}>
         <FaWhatsapp className={style.icons} />
-      </a>
-      <a href="#" className={style.BorderIcons}>
-        <AiOutlineMail className={style.icons} />
       </a>
     </motion.div>
   );

@@ -9,9 +9,6 @@
 /* background-color:  #282c34; */
 .App-container {
   background: linear-gradient(315deg, #282c34, #2a2c53);
-
-
-
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,6 +17,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 .App-link {
