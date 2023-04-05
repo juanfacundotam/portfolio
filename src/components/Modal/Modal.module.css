@@ -20,10 +20,10 @@
   border-radius: 10px;
   padding: 1rem;
   min-width: 320px;
-  max-width: 480px;
+  max-width: 600px;
   min-height: 200px;
-  max-height: 600px;
-  overflow-y: auto;
+  max-height: 1000px;
+  /* overflow-y: auto; */
   background: linear-gradient(315deg, #282c34, #2a2c53);
 }
 

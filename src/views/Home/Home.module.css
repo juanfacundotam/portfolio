@@ -8,8 +8,9 @@
 
 }
 .divHome .image {
-  width: 30%;
-  border-radius: 15px;
+
+  max-width: 350px;
+  border-radius: 15px 40px;
   margin-top: 20px;
 }
 

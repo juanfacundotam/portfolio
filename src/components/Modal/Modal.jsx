@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 const proyectsImage = require.context("../../assets/proyectsImage");
 
 const Modal = ({
+  id,
   isOpen,
   closeModal,
   tittle,
@@ -37,8 +38,8 @@ const Modal = ({
         <div>
           <h4>Tecnologías</h4>
           <ul className={style.list}>
-            {tecnology.map((tecno) => {
-              return <li className={style.item}>{tecno}</li>;
+            {tecnology.map((tecno, index) => {
+              return <li className={style.item} key={index} >{tecno}</li>;
             })}
           </ul>
         </div>
