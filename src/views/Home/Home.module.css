@@ -9,17 +9,18 @@
 }
 .divHome .image {
 
-  max-width: 350px;
+  max-width: 270px;
   border-radius: 15px 40px;
   margin-top: 20px;
 }
 
 .divHome h1 {
   padding: 0;
-
+  font-size: 30px;
   margin: 0;
 }
 .divHome h2 {
+  font-size: 23px;
   margin: 0;
   border: transparent;
   margin-top: 5px;

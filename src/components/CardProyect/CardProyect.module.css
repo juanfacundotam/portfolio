@@ -1,50 +1,41 @@
-/* .containerCard{
-    border: 1px solid greenyellow;
-    position: relative;
-    margin: 30px;
-} */
-.divCard  {
+.divCard {
   /* border: 1px solid yellow; */
   position: relative;
   display: flex;
   justify-content: center;
   align-items: start;
-  margin: 30px;
-  width: 300px;
-  height: 200px;
+  margin: 20px 25px;
+  padding: 0;
+  width: 250px;
+  height: 175px;
+  border-radius: 10px;
   transition: 0.3s;
-
 }
 .divCard:hover {
-  -webkit-box-shadow:0px 0px 92px 3px rgba(78,122,109,0.9);
-  -moz-box-shadow: 0px 0px 92px 3px rgba(78,122,109,0.9);
-  box-shadow: 0px 0px 92px 3px rgba(78,122,109,0.9);
+  -webkit-box-shadow: 0px 0px 92px 3px rgba(78, 122, 109, 0.9);
+  -moz-box-shadow: 0px 0px 92px 3px rgba(78, 122, 109, 0.9);
+  box-shadow: 0px 0px 92px 3px rgba(78, 122, 109, 0.9);
   transform: scale(1.05);
-
 }
 
 .divCard img {
-
   /* border: 1px solid yellow; */
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 175px;
+  border-radius: 10px;
   opacity: 0.8;
   border: 1px solid rgb(255, 255, 255);
-
-
-
-
 }
 .divCard h1 {
   position: relative;
   border-radius: 10px;
 
   backdrop-filter: blur(10px);
-margin-top: 15px;
-  font-size: 20px;
+  margin-top: 15px;
+  font-size: 18px;
   z-index: 1;
   /* border: 1px solid green; */
   padding: 5px 10px;
@@ -52,13 +43,10 @@ margin-top: 15px;
 
 .divCard .btnOpen {
   background-color: transparent;
-  color:white;
+  color: white;
   font-size: 30px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-
 @media screen and (max-width: 790px) {
-
 }

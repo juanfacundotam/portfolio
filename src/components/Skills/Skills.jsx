@@ -32,7 +32,7 @@ const Skills = () => {
         transition={{ duration: 1, type: "tween" }}
         whileInView={{ y: "0px", opacity: 1 }}
       >
-        <h1>My Skills</h1>
+        <h1 className={style.title}>My Skills</h1>
         <motion.div className={style.divIcons}>
           <div className={style.divSkill}>
             <SiJavascript className={style.icons}/>
