@@ -9,6 +9,9 @@ import {
   SiReact,
   SiNextdotjs,
   SiRedux,
+  SiTypescript,
+  SiMongodb,
+  SiVite,
   SiCss3,
   SiHtml5,
   SiNodedotjs,
@@ -36,12 +39,20 @@ const Skills = () => {
             <span>Javascript</span>
           </div>
           <div className={style.divSkill}>
+            <SiTypescript className={style.icons}/>
+            <span>Typescript</span>
+          </div>
+          <div className={style.divSkill}>
             <SiReact className={style.icons} />
             <span>React</span>
           </div>
           <div className={style.divSkill}>
             <SiNextdotjs className={style.icons} />
             <span>NextJS</span>
+          </div>
+          <div className={style.divSkill}>
+            <SiVite className={style.icons} />
+            <span>Vite</span>
           </div>
           <div className={style.divSkill}>
             <SiRedux className={style.icons} />
@@ -64,12 +75,16 @@ const Skills = () => {
             <span>Sequelize</span>
           </div>
           <div className={style.divSkill}>
+            <SiMongodb className={style.icons} />
+            <span>MongoDB</span>
+          </div>
+          <div className={style.divSkill}>
             <SiCss3 className={style.icons} />
             <span>Css</span>
           </div>
           <div className={style.divSkill}>
             <SiHtml5 className={style.icons} />
-            <span>Redux</span>
+            <span>HTML</span>
           </div>
           <div className={style.divSkill}>
             <SiSass className={style.icons} />
