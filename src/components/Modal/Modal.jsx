@@ -8,6 +8,7 @@ const Modal = ({
   isOpen,
   closeModal,
   tittle,
+  link,
   image,
   description,
   imageAlt,
@@ -43,7 +44,7 @@ const Modal = ({
             })}
           </ul>
         </div>
-        <button className={style.btnWeb}>Web Site</button>
+        <a href={link} className={style.btnWeb} target="_blank">Web Site</a>
       </motion.div>
     </article>
   );

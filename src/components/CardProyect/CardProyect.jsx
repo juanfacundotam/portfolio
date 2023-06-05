@@ -10,6 +10,7 @@ const CardProyect = ({
   description,
   image,
   imagealt,
+  link,
   tecnology,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,6 +38,7 @@ const CardProyect = ({
         id={id}
         tittle={tittle}
         image={image}
+        link={link}
         description={description}
         tecnology={tecnology}
         isOpen={isOpen}

@@ -12,21 +12,23 @@ const BoxHeader = () => {
     >
       <h3>Sobre Mí</h3>
       <p>
-        Hola! Mi nombre es Juan Facundo Tam. Soy desarrollador FullStack. Desde
-        hace unos años decidí dar un giro vocacional, desde la psicología hacia
-        la informática, para así dedicarme a lo que mas me apasiona, la
+        ¡Hola, soy Juan Facundo Tam! Soy un apasionado desarrollador FullStack
+        que decidió dar un giro vocacional desde la psicología hacia la
+        informática para dedicarme a lo que realmente me apasiona: la
         programación.
       </p>
       <p>
-        Desde aquel entonces me encuentro en formación constante, investigando,
-        aprendiendo y generando experiencia.
+        Desde entonces, me he mantenido en constante formación, investigando,
+        aprendiendo y acumulando experiencia.
       </p>
       <p>
-        Entre mis cualidades personales, me considero responsable, perseverante
-        y creativo. Me destaco en resolver problemas a través de la búsqueda
-        activa de soluciones y alternativas. Cuento con una gran apertura, interés 
-        y predisposición para dinámicas de trabajo grupal, considerandolas 
-        indispensable para el desarrollo tanto profesional como personal.
+        Me considero una persona responsable, perseverante y creativa, y destaco
+        en la resolución de problemas mediante la búsqueda activa de soluciones
+        y alternativas. Tengo una gran apertura, interés y predisposición para
+        trabajar en equipo, ya que considero que el trabajo colaborativo es
+        esencial para el crecimiento tanto profesional como personal. Sigo
+        comprometido con mi crecimiento continuo y estoy emocionado por explorar
+        las oportunidades que la programación me brinda en el futuro.
       </p>
     </motion.div>
   );

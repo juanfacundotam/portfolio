@@ -21,6 +21,7 @@ import {
   SiCsharp,
   SiDotnet,
   SiLinux,
+  SiTailwindcss
 } from "react-icons/si";
 
 const Skills = () => {
@@ -77,6 +78,10 @@ const Skills = () => {
           <div className={style.divSkill}>
             <SiMongodb className={style.icons} />
             <span>MongoDB</span>
+          </div>
+          <div className={style.divSkill}>
+            <SiTailwindcss className={style.icons} />
+            <span>Tailwind</span>
           </div>
           <div className={style.divSkill}>
             <SiCss3 className={style.icons} />

@@ -10,11 +10,12 @@ const Proyects = () => {
     <div className={style.contenedor} id="proyectos">
       <h1>Proyectos</h1>
       <div className={style.divProyects}>
-        {data.map(({ id, tittle, description, image, imageAlt, tecnology }) => {
+        {data.map(({ id, tittle, description, image, imageAlt, tecnology, link}) => {
           return (
             <CardProyect
               key={id}
               id={id}
+              link={link}
               tittle={tittle}
               description={description}
               image={image}
