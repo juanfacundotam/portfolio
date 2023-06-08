@@ -27,7 +27,7 @@ const Nav = () => {
       <a href="#proyectos" className={style.link}>
         <TfiBriefcase className={style.icons} />
       </a>
-      <a href="https://github.com/juanfacundotam/juanfacundotam/blob/main/Juan%20Facundo%20Tam%20CV%202023.pdf" className={style.link} download>
+      <a href="https://github.com/juanfacundotam/juanfacundotam/blob/main/Juan%20Facundo%20Tam%20CV.pdf" className={style.link} download>
       {/* <BsPhone className={style.icons} /> */}
       <p>CV</p>
       </a>
