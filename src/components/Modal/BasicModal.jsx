@@ -14,7 +14,7 @@ const style = {
   transform: "translate(-50%, -50%)",
   minWidth: 350,
   maxWidth: 470,
-  height: 650,
+
   bgcolor: "background.paper",
   color: "white",
   // border: "2px solid #000",
