@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Header.module.css";
-import foto from "../../assets/foto.jpg";
+import foto from "../../assets/fotoCV.png";
 import Social from "../../components/Social/Social";
 import { motion } from "framer-motion";
 
