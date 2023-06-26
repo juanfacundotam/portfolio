@@ -19,6 +19,7 @@ transform: scale(1.1);
 }
 
 .image {
+  border-radius: 10px;
   width: 252px;
   height: 168px;
 }
