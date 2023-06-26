@@ -5,8 +5,6 @@ import Social from "../../components/Social/Social";
 import { motion } from "framer-motion";
 
 
-import Skills from "../../components/Skills/Skills";
-
 export const Header = () => {
   return (
     <div className={style.divHome} id="home">
