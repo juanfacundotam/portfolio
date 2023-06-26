@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const proyectsImage = require.context("../../assets/proyectsImage");
 
-const Modal = ({
+const ModalTest = ({
   id,
   isOpen,
   closeModal,
@@ -49,4 +49,4 @@ const Modal = ({
     </article>
   );
 };
-export default Modal;
+export default ModalTest;
