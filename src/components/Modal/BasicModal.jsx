@@ -22,11 +22,10 @@ const style = {
   background: "linear-gradient(315deg, #282c34, #2a2c53)",
   borderRadius: 5,
   // p: 4,
-  "&:focus-visible": {
+  "& .css-1fuxvz9:focus-visible, & .BasicModal_divModal__+81d4:focus-visible": {
     outline: "none",
     // Otros estilos cuando está enfocado
   }
-
 };
 
 export default function BasicModal({
