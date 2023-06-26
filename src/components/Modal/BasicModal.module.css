@@ -1,13 +1,21 @@
 
 .divCards {
   margin: 40px;
+  border: none;
 transition: 0.7s;
+} 
+.divCards:focus {
+  outline: none;
+  border: none;
+  /* Otros estilos cuando el div no está enfocado */
 }
 .divCards:hover {
 transform: scale(1.1);
 
 }
-
+.css-1wbkwv8 {
+  
+}
 .divModal {
  /* border: 1px solid green; */
  width: 100%;
