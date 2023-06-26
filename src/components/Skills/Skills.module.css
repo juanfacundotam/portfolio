@@ -1,7 +1,9 @@
 
 .divContainer {
-    margin-top: 140px;
+margin-top: 60px;
+margin-bottom: 60px;
     /* border: 1px solid yellow; */
+
 }
 
 
@@ -40,6 +42,6 @@ margin-bottom: 20px;
 @media screen and (max-width: 790px) {
     .divContainer .divIcons {
         width: 300px;
-        margin-bottom: 250px;
+        /* margin-bottom: 250px; */
     }
   }

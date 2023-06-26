@@ -4,7 +4,7 @@ import { IoPersonOutline } from "react-icons/io5";
 import { TfiBriefcase } from "react-icons/tfi";
 import { MdOutlinePhonelinkRing } from "react-icons/md";
 import { BsPhone, BsPersonVcard } from "react-icons/bs";
-import cv from "../../utils/JuanFacundoTamCV.pdf"
+
 
 import { NavLink } from "react-router-dom";
 import style from "./Nav.module.css";
@@ -27,7 +27,7 @@ const Nav = () => {
       <a href="#proyectos" className={style.link}>
         <TfiBriefcase className={style.icons} />
       </a>
-      <a href="https://github.com/juanfacundotam/juanfacundotam/blob/main/Juan%20Facundo%20Tam%20CV%202023.pdf" className={style.link} download>
+      <a href="https://drive.google.com/file/d/15sRogdIH_nOd4WUyPVQ8x6hd_8C2_PV1/view?usp=sharing" className={style.link} download>
       {/* <BsPhone className={style.icons} /> */}
       <p>CV</p>
       </a>

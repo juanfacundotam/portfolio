@@ -1,12 +1,25 @@
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #16181F;
+    /* border: 1px solid green; */
+    width: 100%;
+
+  
+}
+
 .divBox {  
-  background-color: rgba(255, 255, 255, 0.137);
+  /* background-color: #25293d; */
   /* backdrop-filter: blur(20px); */
   padding: 30px;
   max-width: 600px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   text-align: justify;
-  margin-top: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   z-index: 0;
 } 
 

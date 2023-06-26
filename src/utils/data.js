@@ -24,7 +24,7 @@ import style from "./data.module.css"
 
 const data = [
     {
-      id: "1",
+      id: 1,
       tittle: "SML StartUp",
       description: "Proyecto SML StartUp. Front-Back-BDD",
       image: "foto1",
@@ -42,7 +42,7 @@ const data = [
       tecnology: [<SiJavascript className={style.icon}/>, <SiReact className={style.icon}/>, <SiRedux className={style.icon}/>, <SiExpress className={style.icon}/>, <SiPostgresql className={style.icon}/>, <SiSequelize className={style.icon}/>],
     },
     {
-      id: "1",
+      id: 3,
       tittle: "Rick and Morty App",
       description: "Proyecto de punta a punta. Front-Back-BDD",
       image: "foto3",

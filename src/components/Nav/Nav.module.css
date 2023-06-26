@@ -29,6 +29,17 @@
   text-decoration: none;
   /* border: 1px solid green ; */
 }
+.divNav .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 25px;
+  margin: 7px 15px 7px 15px;
+  padding: 0px 3px 0px 3px;
+  text-decoration: none;
+  /* border: 1px solid green ; */
+}
 
 .divNav .link:hover {
   color: rgb(104, 206, 192);
@@ -42,8 +53,8 @@ margin: 0;
 .divNav .link p {
   border: 1px solid white;
   border-radius: 10px;
-  font-size: 15px;
-  padding: 5px 5px 5px 5px ;
+  font-size: 14px;
+  padding: 4px 5px 3px 5px ;
   margin: 0;
   /* margin-bottom: 7px; */
   }
