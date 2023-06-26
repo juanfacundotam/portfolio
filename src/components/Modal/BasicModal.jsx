@@ -22,6 +22,11 @@ const style = {
   background: "linear-gradient(315deg, #282c34, #2a2c53)",
   borderRadius: 5,
   // p: 4,
+  "&:focus-visible": {
+    outline: "none",
+    // Otros estilos cuando está enfocado
+  }
+
 };
 
 export default function BasicModal({
@@ -47,8 +52,11 @@ export default function BasicModal({
         onClick={handleOpen}
       >
         {/* <h1>{tittle}</h1> */}
-        <img className={styles.image} src={proyectsImage(`./${image}.webp`)} alt="Imagen Proyecto" />
-
+        <img
+          className={styles.image}
+          src={proyectsImage(`./${image}.webp`)}
+          alt="Imagen Proyecto"
+        />
       </motion.div>
 
       <Modal
@@ -67,12 +75,16 @@ export default function BasicModal({
       > */}
           <div className={styles.divModal}>
             <h1>{tittle}</h1>
-            <img className={styles.image} src={proyectsImage(`./${image}.webp`)} alt="Imagen Proyecto" />
+            <img
+              className={styles.image}
+              src={proyectsImage(`./${image}.webp`)}
+              alt="Imagen Proyecto"
+            />
             <div className={styles.divDescription}>
-            <p className={styles.description}>{description}</p>
+              <p className={styles.description}>{description}</p>
             </div>
             <div>
-              <h4 className={styles.listTitle} >Tecnologías</h4>
+              <h4 className={styles.listTitle}>Tecnologías</h4>
               <ul className={styles.list}>
                 {tecnology.map((tecno, index) => {
                   return (
@@ -93,6 +105,3 @@ export default function BasicModal({
     </div>
   );
 }
-
-
-
