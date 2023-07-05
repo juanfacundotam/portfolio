@@ -27,7 +27,7 @@ const Nav = () => {
       <a href="#proyectos" className={style.link}>
         <TfiBriefcase className={style.icons} />
       </a>
-      <a href="https://drive.google.com/file/d/15sRogdIH_nOd4WUyPVQ8x6hd_8C2_PV1/view?usp=sharing" className={style.link} download>
+      <a href="https://drive.google.com/file/d/1NqZqdHpQhkjFFMAOcD9j-r5JAxR20dPy/view?usp=sharing" className={style.link} download>
       {/* <BsPhone className={style.icons} /> */}
       <p>CV</p>
       </a>
